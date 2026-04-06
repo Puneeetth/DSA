@@ -6,7 +6,7 @@ class TowerOfHanoi {
         }
         
         towerOfHanoi(n - 1,frompeg,auxpeg,topeg);
-        System.out.println("Move disk " + n + " from peg " + frompeg + " to peg" + topeg);
+        System.out.println("Move disk " + n + " from peg " + frompeg + " to peg " + topeg);
         towerOfHanoi(n - 1,auxpeg,topeg,frompeg);
     }
     public static void main(String[] args) {
